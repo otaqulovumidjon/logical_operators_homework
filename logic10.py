@@ -6,6 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    return abs(a)//10 > 0 and abs(a)%10 >= 0
+    return a == int(a) and abs(a) >= 10 and abs(a) <= 99
 
-print(main(12)) 
+print(main(100))
