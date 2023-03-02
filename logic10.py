@@ -8,4 +8,4 @@ def main(a):
     """
     return a%10 != 0 and a//10 != 0
 
-print(main(79))
+print(main(79)) 
