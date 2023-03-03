@@ -9,4 +9,4 @@ def main(a,b):
     """
     return a<0 and a<0
 
-print(main(-1, -3))
+print(main(-1, -3)) 
