@@ -8,4 +8,6 @@ def main(x):
     Returns:
         bool: answer
     """
-    return 
+    return x == int(a) and abs(x)//2 == abs(a)%2
+    
+print(main(11))
