@@ -8,6 +8,6 @@ def main(x):
     Returns:
         bool: answer
     """
-    return x == int(x) and abs(x)//10 == abs(x)%10
+    return x == int(x) and abs(x)//10 == abs(x)%10 and abs(x)>=10 and abs(x)<=99
     
 print(main(55))
