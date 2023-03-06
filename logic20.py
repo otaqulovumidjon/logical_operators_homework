@@ -14,4 +14,4 @@ def main(n):
 
     return n%10 > 0
 
-print(main(10001))
+print(main(10011))
