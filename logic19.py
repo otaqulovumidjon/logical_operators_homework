@@ -7,6 +7,6 @@ def main(x):
     Returns:
         bool: answer
     """
-    return x==int(x) and x>=10 and x<=999 and (x == x//10 + (x%10)*10 or x == x//100 + (x//10%10)*10 + (x%10)*100)
+    return x==int(x) and x>=10 and x<=999 and (x//10 == x%10 or x//100 == x%10)
     
-print(main(303))
+print(main(343))
